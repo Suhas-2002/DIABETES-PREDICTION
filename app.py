@@ -34,7 +34,7 @@ dpf = st.number_input('Diabetes Pedegree : ', min_value=0.0)
 age = st.number_input('Age : ', min_value=0) 
 
 def check_input():
-    if (not preg or not glu or not bp or not skt or not ins or not bmi or not dpf or not age): 
+    if (not glu or not bp or not skt or not ins or not bmi or not dpf or not age): 
         st.warning("Please enter all the fields!")
         return False
 
